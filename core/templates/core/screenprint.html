@@ -1,0 +1,79 @@
+{% load static %}
+
+<!DOCTYPE html>
+<!--
+    Anything you put in between the double-dash arrow symbols shown around
+    this block of text is designated a 'comment' intended for human coders
+    and ignored by the computer. The top "<!DOCTYPE html>" line of code
+    declares that this text file is to be interpreted as HTML code.
+-->
+
+<html lang=en>
+<!--
+    This opening tag marks the start of the html code.  Everything below
+    until the </html> closing tag is part of this element. "lang" is an
+    attribute defining the language of the website. The value "en"
+    indicates this site is written in English. We indent the content
+    inside an element to make it easier for people to read and understand.
+-->
+
+    <head>
+    <!--Code about the website NOT displayed in the browser window.-->
+
+        <meta charset="UTF-8"> <!--Sets site to use standard characters.-->
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Sizes your site to the visitor's screen size -->
+
+        <meta name="author" content="Your Name">
+        <!--
+            Some tags like "meta" are self-closing. They have "attributes"
+            but no inner content and they don't need or use a closing tag.
+        -->
+
+        <title>Yourname's Screenprinting Project</title>
+        <!--The 'title' is what's displayed in the browser tab.-->
+
+        <link rel="stylesheet" href="{% static 'core/style.css' %}">
+        <!--
+            HTML (HyperText Markup Language) code is for the website
+            content. CSS (Cascading Style Sheets) code is for the website
+            style. The line above tells the browser the file location and
+            file name to find this code that you'll write/edit there.
+        -->
+
+    </head>
+
+    <body> <!--Everything to be displayed in the browser window.-->
+
+        <h1>What is this project about?</h1>
+        <p>Our New Media and Tech for Social Change is a technology skill building class learning this like how to photoshop, code, editing and etc. The goal for this project was to design a custom frame of your photoshopped work that started from a photo and was screen printed onto fabric, paper and a card board box.</p>
+
+        <h1>My Design Process</h1>
+	<p>When this project in New Media and Tech for Social Change, my first idea was to have a girl sitting in a chair inside a hand heart in another universe saying girls world. It later got changed from me realizing the amount of screens i needed and how the colors worked for this project. creating our idea we used photoshop inserting the image we took of a body part and making something that revolves around it. In adobe photoshop we used different layers and brushes to separate our designs for how many frames you planned on using.
+</p>
+<img src="{% static 'core/original_photo.JPG' %}" width="400">
+<p class="caption">this is a photo of my hand the start of this project</p>
+	<h1>Photo creation</h1>
+	<p>A teammate of mines took a couple photos of my desire which was my hand in a heart. I chose my picture to have a straight shot angle, narrow depth field with the aperture setting being f4 and my shutter being 1/1000. Once I figured out which one I liked most I later inserted it in adobe photoshop I cut out the background and inserted a girl sitting down inside of the heart. Short after that I had to change my colors to black and pink because I wanted to use two frames. When screen printing there are only 6 colors yellow,black,white,red,magenta and cyan.
+</p>
+<img src="{% static 'core/Saniyaproject1.jpg' %}" width="200">
+	<h1>Summary of Building</h1>
+	<p> After figuring out my final design and using graphic organizers  we used an app called adobe illustrator to separate and measure the size of our  frames. Once that was done and all of the dimensions were made we got our wood and started measuring for the frames then later started cutting using a saw machine. Once all 8 of my pieces of wood were cut since I was making two frames I started gluing the wood and stapling them together. During this stage you will need a partner to staple the wood while you holding the glue and two wood pieces together. After the glue was dry I cut the screen 1.5 inches bigger then my frame on each side. Stretching and stapling the screen over the wood making sure it was tight, this is also a two person job one has to stretch the screen and the other has to staple. Next we inserted a final image onto a app connected to the printer and it cut it out on a special paper. After the printer was done cutting we use tools to peel out the lined pieces that the paint need to go through. If you had two screens you needed to be extra careful when peeling so you don’t peel out a piece from the other screen and mess it up. Once done we put our design on the screen white side up,  put heat protection paper on top and used baby iorns and melted on screen down into the paper. We later peeled the clear paper off and it was time to start screen printing. We used clamps to hold our screen down to the table and taped a piece of paper under our frame. The first frame I got black paint and put above my design, placed the screen down, got the scraper and started pulling the paint down across the screen once or twice. I reptead this step a couple times on paper until I liked it, then later did it on a piece of fabric and cardboard. I repeated those steps with my other color but mixed white and magenta to get the pink I wanted. After that I got my draft from my black screen lined it up with my pink frame as close as possible and put my pink on top of the black doing that with each paper, cardboard and fabric.
+</p>
+<img src="{% static 'core/saniyasaw.JPG' %}" width="200">
+<img src="{% static 'core/saniyairon.JPG' %}" width="200">
+<img src="{% static 'core/saniyapeeling.JPG' %}" width="200">
+<img src="{% static 'core/afterprintsaniya.JPG' %}" width="200">
+
+	<h1>Reflection</h1>
+	<p>Overall during this assignment/ project my favorite part was screen printing seeing my design come together and knowing. I did all this work by myself with the help of my teacher Mr sinuses. Over time I had plenty of mistakes that had to be fixed but it was all fun at the end. Learning how to use different apps like adobe photoshop and illustrator learning how to edit use different was amazing! When I grow up I will miss the class and doing these fun projects remembering how much fun I had.
+</p>
+<img src="{% static 'core/saniyaprint.jpg' %}" width="200">
+<img src="{% static 'core/WIn_20250124_10_29_59_pro.jpg' %}" width="400">
+
+	<h1>21st Century Skills</h1>
+	<p>Lastly, the 21st century skill that I grew overtime was initiative, self direction and accountability. I chose this because meeting the high standards for this project took time with all the things we had to do during this process. Managing time for this project all the hard work, staying after school so I got things done and staying on track especially after missing a couple days making me behind. Also taking responsibility for all the things I messed up on or not finishing, getting it done eventually and getting the grade I deserved.
+</p>
+    </body>
+</html>
